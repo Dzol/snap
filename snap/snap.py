@@ -7,19 +7,6 @@ print `CracklePop'.
 
 '''
 
-def test():
-
-    assert "1" == snap(1)
-    assert "Crackle" == snap(3)
-    assert "Pop" == snap(5)
-    assert "CracklePop" == snap(15)
-
-    def tricky(n):
-        assert "CracklePop" == snap(n)
-
-    ## steps of 15 mean the number will be divisible by 3 and 5
-    [ tricky(n) for n in xrange(0, 100 + 1, 15) ]
-
 def snap(n):
 
     '''snap(n :: integer) :: string'''
@@ -36,4 +23,3 @@ def snap(n):
 if __name__ == "__main__":
     for i in xrange(1, 100 + 1):
         print snap(i)
-                                                                                
