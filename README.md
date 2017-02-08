@@ -2,5 +2,4 @@
 
 # Snap
 
-A program for learning Python and its ecosystem.
-Origin: the [Recurse Center](https://www.recurse.com/).
+A program to jog my memory about Python.
