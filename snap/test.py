@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 
-from snap.snap import snap
+from snap import snap
 
 def test():
 
