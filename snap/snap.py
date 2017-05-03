@@ -22,4 +22,4 @@ def snap(n):
 
 if __name__ == "__main__":
     for i in xrange(1, 100 + 1):
-        print snap(i)
+        print(snap(i))

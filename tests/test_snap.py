@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 
-from snap import snap
+from snap.snap import snap
 
 def test():
 
@@ -13,7 +13,7 @@ def test():
         assert "CracklePop" == snap(n)
 
     ## steps of 15 mean the number will be divisible by 3 and 5
-    [ tricky(n) for n in xrange(0, 100 + 1, 15) ]
+    [ tricky(n) for n in range(0, 100 + 1, 15) ]
 
 if __name__ == "__main__":
     test()

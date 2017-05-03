@@ -1,5 +1,8 @@
 language: python
-python:
-  - "2.7.10"
-sudo: required
-script: "./snap/test.py"
+python: 3.5
+install:
+  - "pip install pytest"
+  - "pip install flake8"
+script:
+  - flake8
+  - py.test tests
